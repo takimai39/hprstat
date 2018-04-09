@@ -15,7 +15,7 @@ make hprstat
 ./hprstat 4560  
 commmand: java  
 lwpid   pid     pri     status  UsrTime SysTime  
------   ---     ---     ----    ------  ------  
+*-----   ---     ---     ----    ------  ------*  
 16662   4560    154     1       2       0  
 16663   4560    137     1       0       0  
 16664   4560    137     1       0       0  
