@@ -5,6 +5,10 @@ hprstat
 すでに、その hp_prstat へのリンクは無くなっていますので、同様のツールを作成してみました。
 
 利用方法は hprstat <PID> として実行する事で、スレッド番号とCPU利用率を表示します。
+  
+## Compile
+
+make hprstat
 
 ## Usage
 
@@ -22,4 +26,5 @@ lwpid   pid     pri     status  UsrTime SysTime
 …
 
 ## Other
+
 なお、HPE の製品として HPE GlancePlus software を購入しインストールされていれば /opt/perf/bin/glance コマンドで、同様にスレッド毎の CPU 利用率を表示する事が可能です。
